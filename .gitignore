@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated datasets and private source documents
+datasets/raw/
+datasets/cleaned/
+datasets/processed/
+datasets/training/
+
+# Generated model artifacts
+models/
+checkpoints/
+outputs/
+*.faiss
+*.safetensors
+*.bin
+
+# Local tooling
+.idea/
+.vscode/
+.DS_Store

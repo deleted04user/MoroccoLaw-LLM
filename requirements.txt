@@ -1,0 +1,12 @@
+accelerate
+bitsandbytes
+datasets
+faiss-cpu
+json-repair
+numpy
+peft
+pymupdf
+sentence-transformers
+torch
+transformers
+trl
