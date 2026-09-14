@@ -8,6 +8,7 @@
 ![Qwen](https://img.shields.io/badge/LLM-Qwen2.5-6F42C1?style=for-the-badge)
 ![FAISS](https://img.shields.io/badge/Search-FAISS-0081CB?style=for-the-badge)
 ![Notebook](https://img.shields.io/badge/Notebook-Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
+[![Notebook quality](https://github.com/deleted04user/MoroccoLaw-LLM/actions/workflows/notebook-quality.yml/badge.svg)](https://github.com/deleted04user/MoroccoLaw-LLM/actions/workflows/notebook-quality.yml)
 
 An educational notebook that transforms a Moroccan legal PDF into searchable articles and uses retrieval-augmented generation to produce answers grounded in the retrieved source text.
 
@@ -69,7 +70,11 @@ flowchart LR
 MoroccoLaw-LLM/
 ├── notebooks/
 │   └── Lesson_01_Setup.ipynb
+├── scripts/
+│   └── validate_notebook.py
+├── .github/workflows/notebook-quality.yml
 ├── .gitignore
+├── LICENSE
 ├── requirements.txt
 └── README.md
 ```
@@ -151,6 +156,18 @@ This first lesson is an end-to-end prototype rather than a production system. It
 - Verify every answer against the cited source text.
 - Do not treat model output as professional legal advice.
 
+## Verification
+
+Run the repository's lightweight notebook structure and secret-safety check:
+
+```bash
+python scripts/validate_notebook.py
+```
+
 ## Disclaimer
 
 MoroccoLaw-LLM is an educational and research project. Its output may be incomplete or incorrect and must not replace consultation with a qualified legal professional.
+
+## License
+
+Original project code is released under the [MIT License](LICENSE). Source legal documents, model weights, and third-party datasets retain their respective rights and licenses.
