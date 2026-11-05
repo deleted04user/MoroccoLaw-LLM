@@ -18,6 +18,8 @@ An educational notebook that transforms a Moroccan legal PDF into searchable art
 
 ---
 
+**Explore:** [Pipeline](#pipeline) · [Setup](#getting-started) · [Scope](#current-scope) · [Verification](#verification)
+
 ## Overview
 
 MoroccoLaw-LLM demonstrates the foundations of a legal RAG workflow using the Moroccan *Code des Obligations et des Contrats* as an example source. The project extracts PDF text, detects individual articles, creates multilingual embeddings, searches them with FAISS, and asks a compact Qwen instruction model to answer only from retrieved context.
@@ -171,3 +173,7 @@ MoroccoLaw-LLM is an educational and research project. Its output may be incompl
 ## License
 
 Original project code is released under the [MIT License](LICENSE). Source legal documents, model weights, and third-party datasets retain their respective rights and licenses.
+
+---
+
+[Oussama Oulkaid · GitHub profile](https://github.com/deleted04user) · [Explore the project portfolio](https://github.com/deleted04user/deleted04user/blob/main/PORTFOLIO.md)
